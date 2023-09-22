@@ -8,7 +8,7 @@
             $parte1 = implode(" ", array_slice($array, 0, $i));
             $parte2 = implode(" ", array_slice($array, $i));
 
-            $resultado[] = [implode(' ', $parte1), implode(' ', $parte2)];
+            $resultado[] = [$parte1,$parte2];
         }
             return $resultado;
         
