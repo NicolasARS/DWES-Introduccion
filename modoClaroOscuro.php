@@ -1,4 +1,5 @@
 <?php
+    $value = 'Esto es una cookie de modo de navegador';
     $mode = ($_GET['mode'] ?? ($_COOKIE['mode'] ?? "claro"));
     setcookie("mode", $mode, time() + 30 * 24 * 60 * 60);
 
